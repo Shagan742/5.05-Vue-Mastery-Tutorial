@@ -3,7 +3,8 @@ const app=Vue.createApp({
         return {
             product:'Socks',
             image:'./assets/images/socks_green.jpg',
-            url:'https://github.com/Shagan742/5.05-Vue-Mastery-Tutorial'
+            inventory: 100,
+            onSale:true
         }
     }
 })
